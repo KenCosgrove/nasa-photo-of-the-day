@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "./App.css";
-
+import theme from './style/theme'
 import Body from './Body'
 import Footer from './Footer'
 import axios from "axios"
@@ -12,7 +12,7 @@ function App(props) {
 
 useEffect(()=>{
   axios.get("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY").then(res=>{
-    console.log(res.data)
+   // console.log(res.data)
     setData(res.data)
   }).catch(err=>{
     console.log("error")

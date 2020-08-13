@@ -2,7 +2,7 @@ const theme = {
     primaryColor: 'slategrey',
     secondaryColor: 'black',
     tertiaryColor: 'white',
-    padding: 1rem,
+    padding: "1rem",
 
 }
 

@@ -1,6 +1,8 @@
 import React from "react";
 
+const styledBody = styled`
 
+`
 
 export default function Body(props){
     const {title, url, description} = props
